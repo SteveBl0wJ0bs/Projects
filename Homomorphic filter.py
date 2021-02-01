@@ -1,3 +1,6 @@
+#This code is an implementation of the homomorphic filter using a Butterworth high pass filter. The program takes an image as input and it returns the filtered image
+#as output. It also shows the pixels distribution of input and output image, the size of the Butterworth filter and his plot.
+
 import logging
 import numpy as np
 import cv2
