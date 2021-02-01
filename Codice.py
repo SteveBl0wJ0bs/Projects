@@ -1,9 +1,11 @@
+#This code is an implementation of the homomorphic filter. This program take an image as input, then it applies the filter and it returns the filtered image 
+#as output with their pixels distribution. It also shows the size of the Butterworth high pass filter and his plot.
 import logging
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-#C:\Users\Giacomo\Downloads\image.png
+
 path=input('Inserisci path dell\'immagine: ')
 img=cv2.imread(r'%s'%path)
 image=np.double(cv2.cvtColor(img,cv2.COLOR_RGB2GRAY))
